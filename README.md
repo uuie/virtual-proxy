@@ -29,7 +29,7 @@ Virtual-proxy is a py script that helps developer dispatch http request to diffe
 
 
 
-#### *  the script will did not change the hosts file automatically, you can made the change on demand.
+#### *  the script will not change the hosts file automatically, you add this feature on demand.
 
-#### * the script using IP address in proxy config file , if your ip changed or a new service is launched,  you have to re-launch the script , it will update the nginx proxy's config.
+#### * the script using IP address in proxy config file , if your ip changed or a new service is launched or a existing service shut down ,  you have to re-launch the script , it will update the nginx proxy's config on the fly.
 
