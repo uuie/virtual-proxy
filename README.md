@@ -16,7 +16,7 @@ Virtual-proxy is a py script that helps developer dispatch http request to diffe
 
   
 
-- step2 : run a nginx instance and run the script 
+- step2 : run a nginx instance and launch the script 
 
    ```bash
     $ docker run -itd -p 80:80 nginx
